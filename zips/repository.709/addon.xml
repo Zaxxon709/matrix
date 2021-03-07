@@ -8,7 +8,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>The[COLOR gray][B] 709[/B][/COLOR][COLOR dodgerblue][B]Repo[/B][/COLOR]</summary>
+        <summary>The 709Repo</summary>
         <description>709 Repository</description>
         <disclaimer></disclaimer>
         <platform>all</platform>

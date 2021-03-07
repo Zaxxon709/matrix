@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.openwizard" name="[COLOR gray][B]709[/B][/COLOR]Wizard" version="1.0" provider-name="drinfernoo, slamious, Zaxxon709">
+<addon id="plugin.program.openwizard" name="[COLOR gray][B]709[/B][/COLOR]Wizard" version="1.1" provider-name="drinfernoo, slamious, Zaxxon709">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -145,7 +145,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>The[COLOR gray][B] 709[/B][/COLOR][COLOR dodgerblue][B]Repo[/B][/COLOR]</summary>
+        <summary>The 709Repo</summary>
         <description>709 Repository</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
