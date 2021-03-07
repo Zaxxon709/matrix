@@ -139,9 +139,9 @@
 <addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR dodgerblue]Repo[/COLOR][/B]-[COLOR seagreen][B]Matrix[/B][/COLOR]" version="1.0" provider-name="Zaxxon709">
     <extension point="xbmc.addon.repository" name="The709Repo">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/leia/main/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zaxxon709/leia/main/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/leia/main/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
