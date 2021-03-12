@@ -35,7 +35,7 @@
 <ul>
     <li>Open Kodi Settings and choose Add-Ons. Then select "Install from repository"</li>
     <li>Select the "The 709Repo"</li>
-    <li>Navigate to the "Program add-ons" section in the repo, and you'll find the 709 add-ons. From there, install the 709Wizard to access my builds.</li>
+    <li>Navigate to the "Program add-ons" section in the repo, and you'll find the 709 add-ons. From there, install the 709Wizard.</li>
 </ul>
 
 
