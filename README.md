@@ -14,7 +14,7 @@
 ### Instructions for installing the repository via the added source:
 
 <ul>
-    <li>Go to Kodi Add-Ons to open the Addon Browser, then select "Install from zip file"</li>
+    <li>From within Kodi, navigate to Add-Ons and select "Install from zip file"</li>
     <li>From the available list of sources, select "709Repo", and install "repository.709-matrix-1.0.zip"</li>
 </ul>
 
@@ -24,7 +24,7 @@
 
 <ul>
     <li>Download <a href="repository.709-matrix-1.0.zip?file=path/<?=$row['repository.709-matrix-1.0.zip']?>">repository.709-matrix-1.0.zip</a></li>
-    <li>Go to Kodi Add-Ons to open the Addon Browser, then select "Install from zip file"</li>
+    <li>From within Kodi, navigate to Add-Ons and select "Install from zip file"</li>
     <li>Navigate to where you saved repository.709-matrix-1.0.zip and select to install</li>
 </ul>
 
