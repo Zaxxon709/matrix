@@ -156,6 +156,28 @@
     </extension>
 </addon>
 
+<addon id="script.709clean"
+       name="[B][COLOR gray]709[/COLOR][/B]Clean"
+       version="1.3"
+       provider-name="SchisM, Zaxxon709">
+  <requires>
+  </requires>
+ 	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Utility</summary>
+    <description>Kodi Cleaning Tool</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="script.709rdvpn" name="[B][COLOR=gray]709[/COLOR][/B]VPNcheck" version="1.0" provider-name="peno, Zaxxon709">
 	<requires>
 	</requires>
@@ -171,12 +193,12 @@
 	</extension>
 </addon>
 
-<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2019.05.10.3" provider-name="aenema">
+<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2020.12.19.1" provider-name="aenema, peno">
   <requires>
-      <import addon="script.module.requests" version="1.0.0" />
+    <import addon="script.module.requests" version="1.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-     <provides>video executable</provides>
+     <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
@@ -187,7 +209,30 @@
     <license>The MIT License</license>
     <forum>-</forum>
     <source>https://github.com</source>
+    <assets>
+	    <icon>icon.png</icon>
+	    <fanart>fanart.png</fanart>
+    </assets>
   </extension>
+</addon>
+
+<addon id="script.hideosd" version="2018.05.20" name="Hide Video OSD" provider-name="aenema">
+	<requires>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+        <description>A Simple script to autohide video osd for inactivity. Timeout can be set in the addon settings</description>
+
+		<summary lang="en">Autohide Video OSD</summary>
+		<platform>all</platform>
+		<forum>-</forum>
+		<website>-</website>
+		<source>-</source>
+		<news>-</news>
+	</extension>
 </addon>
 
 <addon id="skin.estuary.modv2" version="99.1.1" name="Estuary MOD" provider-name="Guilouz, K19 branch by BJ1, Zaxxon709">
