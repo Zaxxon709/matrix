@@ -5,7 +5,7 @@
 
 <ul>
     <li>Open the Kodi File Manager</li>
-    <li>Click on "Add source"</li>
+    <li>Select "Add source"</li>
     <li>The path for the source is <code>https://zaxxon709.github.io/repo/</code> (Give it the name "709REPO")</li>
 </ul>  
 
