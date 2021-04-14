@@ -5,11 +5,11 @@
 
 To get started you can install either my Leia Repo or Matrix Repo. Then you can install my wizard. 
 
-###Leia Repository
+### Leia Repository
 
 [![Download Repo](https://img.shields.io/badge/Download-Repo-blue.svg?style=for-the-badge)](https://raw.githubusercontent.com/Zaxxon709/matrix/main/repository.709-leia-1.1.zip)
 
-###Matrix Repository
+### Matrix Repository
 
 [![Download Repo](https://img.shields.io/badge/Download-Repo-blue.svg?style=for-the-badge)](https://raw.githubusercontent.com/Zaxxon709/matrix/main/repository.709-matrix-1.0.zip)
 
