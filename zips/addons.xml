@@ -136,7 +136,7 @@
     </extension>
 </addon>
 
-<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR green]Repo[/COLOR][/B]" version="1.1" provider-name="Zaxxon709">
+<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR green]Repo[/COLOR][/B]" version="1.0" provider-name="Zaxxon709">
     <extension point="xbmc.addon.repository" name="The709Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml</info>
