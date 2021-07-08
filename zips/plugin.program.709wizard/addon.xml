@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.709wizard" name="[COLOR gray][B]709[/B][/COLOR]Wizard" version="1.4" provider-name="drinfernoo, slamious, Zaxxon709">
+<addon id="plugin.program.709wizard" name="[COLOR gray][B]709[/B][/COLOR]Wizard" version="1.5" provider-name="drinfernoo, slamious, Zaxxon709">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -15,12 +15,24 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR grey][B]709[/B][/COLOR]Wizard</summary>
-        <description lang="en">[COLOR grey][B]709[/B][/COLOR]Wizard Automated Build Installer.</description>
+        <summary lang="en">[COLOR grey]709[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR grey]709[/COLOR]Wizard Automated Build Installer.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
         <news>
+2.0.7
+ - Fix Error when using default log settings
+2.0.6
+ - Fix regex for formatting tags
+ - Fix theme selection after build install
+ - Fix downloading into invalid path
+2.0.5
+ - Add Enable All Add-ons after Build Install
+2.0.4
+ - Fix leftover broken dialogs
+2.0.3
+ - Don't show previous version builds in Matrix
 2.0.2
  - Replace remaining occurences of LOGNOTICE
 2.0.1

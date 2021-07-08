@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.709wizard" name="[COLOR gray][B]709[/B][/COLOR]Wizard" version="1.4" provider-name="drinfernoo, slamious, Zaxxon709">
+<addon id="plugin.program.709wizard" name="[COLOR gray][B]709[/B][/COLOR]Wizard" version="1.5" provider-name="drinfernoo, slamious, Zaxxon709">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -16,12 +16,24 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
 
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR grey][B]709[/B][/COLOR]Wizard</summary>
-        <description lang="en">[COLOR grey][B]709[/B][/COLOR]Wizard Automated Build Installer.</description>
+        <summary lang="en">[COLOR grey]709[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR grey]709[/COLOR]Wizard Automated Build Installer.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
         <news>
+2.0.7
+ - Fix Error when using default log settings
+2.0.6
+ - Fix regex for formatting tags
+ - Fix theme selection after build install
+ - Fix downloading into invalid path
+2.0.5
+ - Add Enable All Add-ons after Build Install
+2.0.4
+ - Fix leftover broken dialogs
+2.0.3
+ - Don't show previous version builds in Matrix
 2.0.2
  - Replace remaining occurences of LOGNOTICE
 2.0.1
@@ -136,12 +148,12 @@
     </extension>
 </addon>
 
-<addon id="repository.nvidia" name="[B]The[COLOR gray] 709[/COLOR][COLOR green]Repo[/COLOR][/B]" version="1.0" provider-name="Zaxxon709">
+<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR green]Repo[/COLOR][/B]" version="1.0" provider-name="Zaxxon709">
     <extension point="xbmc.addon.repository" name="The709Repo">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Tonkapug/NvidiaShield/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Tonkapug/NvidiaShield/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Tonkapug/NvidiaShield/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -198,12 +210,14 @@
         </extension>
 </addon>
 
-<addon id="skin.estuary.modv2" version="99.1.1" name="Estuary MOD" provider-name="Guilouz, K19 branch by BJ1, Zaxxon709">
+<addon id="skin.estuary.modv2" version="99.1.2" name="Estuary MOD" provider-name="Guilouz, K19 branch by PvD, Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skinshortcuts" version="1.1.3"/>
         <import addon="script.image.resource.select" version="3.0.2"/>
+		<import addon="script.embuary.helper" version="2.0.7"/>
+		<import addon="script.embuary.info" version="2.0.7"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -229,22 +243,69 @@
     	</menu>
  	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Estuary MOD V2 skin by Guilouz</summary>
-		<summary lang="fr_FR">Thème Estuary MOD V2 par Guilouz</summary>
-		<description lang="en_GB">Estuary MOD V2 is a mod from Estuary by Guilouz for Kodi 18. It attempts to be easy for first time Kodi users to understand and use.</description>
-		<description lang="fr_FR">Estuary MOD V2 est un mod de Estuary par Guilouz pour Kodi 18. Il est facile à comprendre et à utiliser pour les utilisateurs novices de Kodi.</description>
+		<summary lang="en_GB">Estuary MOD V2 skin by Guilouz, adapted for Matrix by PvD</summary>
+		<description lang="en_GB">Estuary MOD V2 is a mod from Estuary by Guilouz for Kodi 18 and adapted for Kodi 19 (Matrix) by PvD from Kodinerds Community. It attempts to be easy for first time Kodi users to understand and use.</description>
 		<disclaimer lang="en_GB">For better experience, be sure to install all addons required by the theme.</disclaimer>
-		<disclaimer lang="fr_FR">Pour une meilleure expérience, assurez-vous d'installer toutes les extensions requises par le thème.</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<source>https://github.com/Guilouz/skin.estuary.modv2</source>
+		<source>https://github.com/b-jesch/skin.estuary.modv2</source>
 			<assets>
 				<icon>resources/icon.png</icon>
 				<fanart>resources/fanart.jpg</fanart>
 			</assets>
-			<news>
-- Dependencies of script.skinhelper removed
-			</news>
+<news>
+[B]3.0.9+matrix[/B]
+-     PVR NextUp notification window improved
+      NL language strings updated
+      Rework and reimplementation of forced views
+[B]3.0.8+matrix[/B]
+- .7  Empty space on TV Widget removed if current/next recordings are deselected from widget menu
+      but current and/or next schedules are present
+      Bool condition of visibility for option "Reboot from NAND" in shutdown menu removed
+      Addon-Id info added (Addon Information window)
+      PVR NextUp notification fixed
+- .6  Kodi Restart button implemented (Power Menu)
+      Shift View for pictures fixed
+- .5  Background images for power menu, settings menu and search menu reimplemented
+      Rules of background images redefined
+- .4  "Up Next" notifications fixed, many thanks to hawkeyexp,
+      viewsitcher script temporarily deactivated as this cause some issues
+- .3  Some language strings updated
+- .2  Relaunch weather fanart on main screen and selected weather widget
+      Fanart view fixed
+      Several music and concert views fixed
+      Reboot to NAND option in shutdown menu added
+      Some conditions of selecting artworks on music visualization changed (experimental)
+      Minor fixes
+- .1  Display of publication year of movies/videos/tv shows in titles is now switchable
+      Dutch translation added, thanks to "theghostnl" from Kodi forum
+-     "Add" Button in Default Dialog Select Window reimplemented
+[B]3.0.7+matrix[/B]
+- .16 Bugfix: missing settings window of skin shortcuts addon reimplemented
+      Addon dependencies updated
+- .15 Portuguese (Brazil) translation added, many thanks to Fábio Vieitas Marques
+      Visibility of border and border color of radio and stream covers set to border settings in skin setup
+- .14 Media selection for splash screen removed (causes crashes on startup sometimes)
+      Introducing addon "Sleepy Watchdog" as sleeptimer in shutdown menu
+      Fix of banner and artist clearart positions in music views if they both enabled at same time
+      Clearlogo on main music views removed (when overlapping other items)
+- .13 Rewrite of function "Jump to letter"
+      Option for API key management in settings removed
+      Behavior of widelist animation fixed if online content was requested
+- .12 last added episodes widget fixed if no thumbnail is available
+      Expression for easter theme updated (2.04 - 5.04), missing runtime values in info views added
+- .11 Library editor changed against Metadata editor (settings window)
+      Backup/Restore items from settings removed (use Backup Tools instead)
+      Some graphics changed
+- .10 Dependencies of script.artwork.helper removed
+      Rework of animated background (Fanart)
+- .9  Clearlogo from home screen and several main views removed (when overlapping other items)
+      Settings window updated (required and optional addons)
+      Artwork Dump instead of Artwork Helper (n.a. for Matrix) implemented
+- .8  Triple list fixed
+- .7  Mosaic view fixed, next unseen episodes reimplemented, start implementation of embuary helper
+- .5  Dependencies of script.skinhelper completely removed
+</news>
 	</extension>
 </addon>
 </addons>
