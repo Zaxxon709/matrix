@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2020.12.19.1" provider-name="aenema, peno">
+<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="99.19.1" provider-name="aenema, peno, Zaxxon709">
   <requires>
     <import addon="script.module.requests" version="1.0.0" />
   </requires>
