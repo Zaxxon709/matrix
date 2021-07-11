@@ -1,0 +1,15 @@
+<advancedsettings>
+    <cache>
+        <buffermode>1</buffermode>
+        <memorysize>157286400</memorysize>
+        <readfactor>10</readfactor>
+    </cache>
+    <network>
+        <curlclienttimeout>10</curlclienttimeout>
+        <curllowspeedtime>20</curllowspeedtime>
+        <curlretries>10</curlretries>
+    </network>
+    <lookandfeel>
+        <skin>skin.estuary.modv2</skin>
+    </lookandfeel>
+</advancedsettings>
