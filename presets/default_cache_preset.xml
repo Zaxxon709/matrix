@@ -4,7 +4,4 @@
         <curllowspeedtime>20</curllowspeedtime>
         <curlretries>10</curlretries>
     </network>
-    <lookandfeel>
-        <skin>skin.estuary.modv2</skin>
-    </lookandfeel>
 </advancedsettings>
