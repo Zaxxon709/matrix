@@ -279,7 +279,7 @@
 
 <addon
   id="skin.xonfluence.plus"
-  version="99.1.6"
+  version="99.1.7"
   name="XonfluencePLUS"
   provider-name="Helly,bsoriano,Zaxxon709">
   <requires>
