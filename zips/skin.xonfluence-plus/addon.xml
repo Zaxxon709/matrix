@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.xonfluence.plus"
-  version="99.1.6"
-  name="Xonfluence"
+  version="99.1.5"
+  name="XonfluencePLUS"
   provider-name="Helly,bsoriano,Zaxxon709">
   <requires>
     <import addon="xbmc.gui" version="5.15.0"/>
