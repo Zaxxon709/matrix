@@ -232,7 +232,7 @@
 
 <addon
   id="skin.xonfluence.plus"
-  version="99.1.7"
+  version="99.1.8"
   name="XonfluencePLUS"
   provider-name="Helly,bsoriano,Zaxxon709">
   <requires>
