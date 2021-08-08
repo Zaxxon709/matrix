@@ -232,11 +232,12 @@
 
 <addon
   id="skin.xonfluence.plus"
-  version="99.1.8"
+  version="99.1.9"
   name="XonfluencePLUS"
   provider-name="Helly,bsoriano,Zaxxon709">
   <requires>
     <import addon="xbmc.gui" version="5.15.0"/>
+    <import addon="script.favorites"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
