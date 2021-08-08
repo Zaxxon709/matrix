@@ -236,8 +236,9 @@
   name="XonfluencePLUS"
   provider-name="Helly,bsoriano,Zaxxon709">
   <requires>
-    <import addon="xbmc.gui" version="5.15.0"/>
-    <import addon="script.favorites" version="8.1.2"/>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="xbmc.gui" version="5.15.0" />
+    <import addon="script.favorites" version="8.1.2" />
   </requires>
   <extension
     point="xbmc.gui.skin"
