@@ -6,8 +6,8 @@
 	<extension point="xbmc.service" library="autoexec.py">
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Automatically run python code when Kodi starts.</summary>
-		<description lang="en_GB">The Autoexec Service will automatically be run on Kodi startup.</description>
+		<summary lang="en_GB">Force Refresh of Widgets</summary>
+		<description lang="en_GB">AutoWidget Force Refresh Service</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 	</extension>
