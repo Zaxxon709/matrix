@@ -230,15 +230,15 @@
         </extension>
 </addon>
 
-<addon id="service.widget" name="Widget Service" version="99.0.1" provider-name="Zaxxon709">
+<addon id="service.709" name="Autosave Service" version="99.0.1" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.service" library="autoexec.py">
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Force Refresh of Widgets</summary>
-		<description lang="en_GB">AutoWidget Force Refresh Service</description>
+		<summary lang="en_GB">709 Wizard Service</summary>
+		<description lang="en_GB">Auto Refresh Widgets an Trakt and Debrid Autosave</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 	</extension>
