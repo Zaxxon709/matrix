@@ -246,7 +246,7 @@
 
 <addon
   id="skin.xonfluence.plus"
-  version="99.1.18"
+  version="99.1.19"
   name="XonfluencePLUS"
   provider-name="Helly,bsoriano,Zaxxon709">
   <requires>
