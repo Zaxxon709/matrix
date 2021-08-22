@@ -230,7 +230,7 @@
         </extension>
 </addon>
 
-<addon id="service.709" name="Autosave Service" version="99.0.1" provider-name="Zaxxon709">
+<addon id="service.709" name="Autosave Service" version="99.0.2" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
