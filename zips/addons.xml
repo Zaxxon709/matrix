@@ -230,9 +230,23 @@
         </extension>
 </addon>
 
+<addon id="service.widget" name="Widget Service" version="99.0.1" provider-name="Zaxxon709">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="autoexec.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Automatically run python code when Kodi starts.</summary>
+		<description lang="en_GB">The Autoexec Service will automatically be run on Kodi startup.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+	</extension>
+</addon>
+
 <addon
   id="skin.xonfluence.plus"
-  version="99.1.17"
+  version="99.1.18"
   name="XonfluencePLUS"
   provider-name="Helly,bsoriano,Zaxxon709">
   <requires>
