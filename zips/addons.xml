@@ -148,12 +148,15 @@
     </extension>
 </addon>
 
-<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR green]Repo[/COLOR][/B]" version="1.0" provider-name="Zaxxon709">
+<addon id="repository.709" name="[B]The[COLOR gray] 709[/COLOR][COLOR green]Repo[/COLOR][/B]" version="1.1" provider-name="Zaxxon709">
     <extension point="xbmc.addon.repository" name="The709Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -173,7 +176,7 @@
     <import addon="script.module.requests" version="1.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-     <provides>executable</provides>
+     <provides></provides>
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
@@ -196,7 +199,7 @@
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="main.py">
-		<provides>executable</provides>
+		<provides></provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
@@ -215,7 +218,7 @@
 	<requires>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
+		<provides></provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
@@ -241,6 +244,40 @@
 		<description lang="en_GB">Auto Refresh Widgets</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+	</extension>
+</addon>
+
+<addon id="skin.estuary.709mod" version="99.0.7" name="Estuary 709 Mod" provider-name="pkscout, phil65, Ichabod Fletchman, Zaxxon709">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="en_GB">Estuary skin</summary>
+		<description lang="en_GB">Various mods to Estuary, including the ability to customize home screen and home screen widgets.</description>
+		<disclaimer lang="en_GB">This mod is only lightly supported.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-20170506-01.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-02.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-03.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-04.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-05.jpg</screenshot>
+		</assets>
 	</extension>
 </addon>
 
