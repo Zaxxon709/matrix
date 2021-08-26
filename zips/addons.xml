@@ -295,7 +295,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.709mod.plus" version="99.0.8" name="Estuary 709 Mod" provider-name="Zaxxon709, pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.709mod.plus" version="99.0.9" name="Estuary 709 Mod Plus" provider-name="Zaxxon709, pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
