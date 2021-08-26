@@ -233,14 +233,28 @@
         </extension>
 </addon>
 
-<addon id="service.709" name="Widget Service" version="99.0.3" provider-name="Zaxxon709">
+<addon id="service.tmdb" name="TMDb Update Service" version="98.0.2" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.service" library="autoexec.py">
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Widget Service</summary>
+		<summary lang="en_GB">TMDb Library Update Service</summary>
+		<description lang="en_GB">Auto-Update Movies and TV</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+	</extension>
+</addon>
+
+<addon id="service.widget" name="Widget Refresh Service" version="99.0.3" provider-name="Zaxxon709">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="autoexec.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Widget Refresh Service</summary>
 		<description lang="en_GB">Auto Refresh Widgets</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
